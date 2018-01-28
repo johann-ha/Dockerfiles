@@ -9,3 +9,5 @@ RUN apt-get update && \
      libgsl0-dev \
      libgsl2
 
+RUN apt-get update && \
+    apt-get install -y gdb
